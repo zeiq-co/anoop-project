@@ -14,13 +14,13 @@ export default function MySlider() {
 
   return (
     <Slider {...settings}>
-      <div className="w-full h-8 bg-cyan-200">
+      <div className="w-full h-96 bg-cyan-200">
         <h3 className="text-center">my first slide</h3>
       </div>
-      <div className="w-full h-8 bg-cyan-200">
+      <div className="w-full h-96 bg-green-200">
         <h3 className="text-center">my second slide</h3>
       </div>
-      <div className="w-full h-8 bg-cyan-200">
+      <div className="w-full h-96 bg-yellow-200">
         <h3 className="text-center">my third slide</h3>
       </div>
     </Slider>
