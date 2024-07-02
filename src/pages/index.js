@@ -1,4 +1,4 @@
-import { Watch, Coins,MoveUpRight } from "lucide-react";
+import { Watch, Coins, MoveUpRight } from "lucide-react";
 
 import ServiceItem from '../components/ServiceItem';
 import Footer from '../components/Footer';
@@ -6,7 +6,6 @@ import Nav from '../components/Nav';
 import MySlider from '../components/MySlider';
 
 export default function Home() {
-
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
@@ -42,23 +41,19 @@ export default function Home() {
         </h2>
         <div className="flex m-3 flex-row space-x-2">
           <img
-              src="https://placehold.co/120"
-            alt="hero"
+            src="https://placehold.co/120"
             className="w-full h-full object-cover"
           />
           <img
-              src="https://placehold.co/120"
-            alt="hero"
+            src="https://placehold.co/120"
             className="w-full h-full object-cover"
           />
           <img
-              src="https://placehold.co/120"
-            alt="hero"
+            src="https://placehold.co/120"
             className="w-full h-full object-cover"
           />
           <img
-              src="https://placehold.co/120"
-            alt="hero"
+            src="https://placehold.co/120"
             className="w-full h-full object-cover"
           />
         </div>

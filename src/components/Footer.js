@@ -4,7 +4,9 @@ import Nav from '../components/Nav';
 export default function Footer() {
 
   return (
-    <div className="flex flex-row p-6 justify-between" style={{backgroundColor:'#f5f5f5'}}>
+    <div
+      className="flex flex-row p-6 justify-between"
+      style={{backgroundColor:'#f5f5f5'}}>
       <div className="space-y-3">
         <h4>My Website</h4>
         <Nav />
