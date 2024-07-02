@@ -11,7 +11,7 @@ export default function Home() {
       {/* Header */}
       <div className="flex flex-row p-3 shadow-md">
         <div className="flex flex-1">
-          <h1 className="font-bold uppercase text-xl">My Profile</h1>
+          <h1 className="font-bold uppercase text-xl text-pink-300">My Profile</h1>
         </div>
         <div className="flex flex-1 justify-end">
           <Nav />
