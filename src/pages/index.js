@@ -30,7 +30,7 @@ export default function Home() {
           <img
             src="https://placehold.co/400"
             alt="hero"
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full object-cover rounded-2xl"
           />
         </div>
       </div>
