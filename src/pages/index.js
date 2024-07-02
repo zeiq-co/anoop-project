@@ -63,7 +63,7 @@ export default function Home() {
 
       <div className="flex flex-row justify-between m-6">
         <ServiceItem
-          title="24 Hours Customer Service"
+          title="48 Hours Customer Service"
           description="We respect your passion to run your business by always accompany you"
           image={<Watch size={60} color="#066fe8" />}
           />
