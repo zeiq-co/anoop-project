@@ -15,7 +15,7 @@ export default function MySlider() {
   return (
     <Slider {...settings}>
       <div className="w-full h-96 bg-cyan-200">
-        <h3 className="text-center justify-center">my first slide</h3>
+        <h3 className="text-center">my first slide</h3>
       </div>
       <div className="w-full h-96 bg-purple-200">
         <h3 className="text-center">my second slide</h3>

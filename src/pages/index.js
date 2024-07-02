@@ -21,10 +21,10 @@ export default function Home() {
       {/* Hero Area */}
       <div className="flex flex-row mt-2">
         <div className="flex flex-1 flex-col pr-64 pl-4 py-12 justify-center">
-          <h2 className="text-4xl font-bold">
+          <h2 className="text-4xl font-bold text-purple-300">
             Check Currency Exchange Rate in Real Time
           </h2>
-          <p>Monitor your worldwide business with this handy apps</p>
+          <p className="text-yellow-300">Monitor your worldwide business with this handy apps</p>
         </div>
         <div className="flex flex-1">
           <img
@@ -36,7 +36,7 @@ export default function Home() {
       </div>
       {/* Hero Area */}
       <div className="flex m-3 flex-col">
-        <h2 className="text-xl font-bold">
+        <h2 className="text-xl font-bold text-cyan-300 m-2">
           Trusted by
         </h2>
         <div className="flex m-3 flex-row space-x-2">
