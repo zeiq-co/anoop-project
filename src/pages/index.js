@@ -11,7 +11,7 @@ export default function Home() {
       {/* Header */}
       <div className="flex flex-row p-3 shadow-md">
         <div className="flex flex-1">
-          <h1 className="font-bold uppercase text-xl text-pink-300">My Profile</h1>
+          <h1 className="font-bold uppercase text-xl text-purple-400">My Profile</h1>
         </div>
         <div className="flex flex-1 justify-end">
           <Nav />
@@ -24,7 +24,7 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-purple-300">
             Check Currency Exchange Rate in Real Time
           </h2>
-          <p className="text-yellow-300">Monitor your worldwide business with this handy apps</p>
+          <p className="text-purple-200">Monitor your worldwide business with this handy apps</p>
         </div>
         <div className="flex flex-1">
           <img
@@ -36,7 +36,7 @@ export default function Home() {
       </div>
       {/* Hero Area */}
       <div className="flex m-3 flex-col">
-        <h2 className="text-xl font-bold text-cyan-300 m-2">
+        <h2 className="text-xl font-bold m-2">
           Trusted by
         </h2>
         <div className="flex m-3 flex-row space-x-2">
