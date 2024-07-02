@@ -42,19 +42,19 @@ export default function Home() {
         <div className="flex m-3 flex-row space-x-2">
           <img
             src="https://placehold.co/120"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover rounded-lg"
           />
           <img
             src="https://placehold.co/120"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover rounded-lg"
           />
           <img
             src="https://placehold.co/120"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover rounded-lg"
           />
           <img
             src="https://placehold.co/120"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover rounded-lg"
           />
         </div>
       </div>
