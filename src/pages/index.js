@@ -1,24 +1,21 @@
+import { Watch, Coins,MoveUpRight } from "lucide-react";
+
+import ServiceItem from '../components/ServiceItem';
+import Footer from '../components/Footer';
+import Nav from '../components/Nav';
+import MySlider from '../components/MySlider';
 
 export default function Home() {
 
   return (
-    <div className="h-screen bg-white">
+    <div className="min-h-screen bg-white">
       {/* Header */}
       <div className="flex flex-row p-3 shadow-md">
         <div className="flex flex-1">
           <h1 className="font-bold uppercase text-xl">My Profile</h1>
         </div>
         <div className="flex flex-1 justify-end">
-          <ul className="flex space-x-8">
-            <li><a className="cursor-pointer">Home</a></li>
-            <li><a className="cursor-pointer">About Us</a></li>
-            <li><a className="cursor-pointer">Pricing</a></li>
-            <li>
-              <a className="cursor-pointer bg-blue-500 text-white px-6 py-2 rounded-full">
-                Download
-              </a>
-            </li>
-          </ul>
+          <Nav />
         </div>
       </div>
       {/* Header */}
@@ -39,6 +36,54 @@ export default function Home() {
         </div>
       </div>
       {/* Hero Area */}
+      <div className="flex m-3 flex-col">
+        <h2 className="text-xl font-bold">
+          Trusted by
+        </h2>
+        <div className="flex m-3 flex-row space-x-2">
+          <img
+              src="https://placehold.co/120"
+            alt="hero"
+            className="w-full h-full object-cover"
+          />
+          <img
+              src="https://placehold.co/120"
+            alt="hero"
+            className="w-full h-full object-cover"
+          />
+          <img
+              src="https://placehold.co/120"
+            alt="hero"
+            className="w-full h-full object-cover"
+          />
+          <img
+              src="https://placehold.co/120"
+            alt="hero"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+
+      <MySlider />
+
+      <div className="flex flex-row justify-between m-6">
+        <ServiceItem
+          title="24 Hours Customer Service"
+          description="We respect your passion to run your business by always accompany you"
+          image={<Watch size={60} color="#066fe8" />}
+          />
+        <ServiceItem
+          title="Currencies All Over The World"
+          description="Our complete and real-time currencies database will help your business"
+          image={<Coins size={60} color="#066fe8" />}
+          />
+        <ServiceItem
+          title="Upgrade Once You Ready"
+          description="No worries, we always welcome you once you ready to upgrade"
+          image={<MoveUpRight size={60} color="#066fe8" />}
+          />
+      </div>
+      <Footer />
     </div>
   );
 }
