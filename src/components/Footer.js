@@ -13,10 +13,10 @@ export default function Footer() {
         <p>© 2024 My Website. All rights reserved.</p>
       </div>
       <div className="flex flex-row space-x-3">
-        <Instagram />
-        <Twitter />
-        <Facebook />
-        <Youtube />
+        <Instagram size={32} />
+        <Twitter size={32} />
+        <Facebook size={32} />
+        <Youtube size={32} />
       </div>
     </div>
   );
