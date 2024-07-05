@@ -5,7 +5,7 @@ export default function Nav() {
       <li><a className="cursor-pointer">AboutUs</a></li>
       <li><a className="cursor-pointer">Pricing</a></li>
       <li>
-        <a className="cursor-pointer bg-blue-500 text-white px-6 py-2 rounded-full">
+        <a className="cursor-pointer bg-purple-400 text-white px-6 py-2 rounded-full">
           Download
         </a>
       </li>

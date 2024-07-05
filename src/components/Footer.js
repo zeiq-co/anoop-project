@@ -5,7 +5,7 @@ export default function Footer() {
 
   return (
     <div
-      className="flex flex-row p-6 justify-between bg-purple-100">
+      className="flex flex-row p-6 justify-between bg-purple-50 shadow-md">
       <div className="space-y-3">
         <h4 className="">My Website</h4>
         <Nav />

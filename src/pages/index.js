@@ -11,7 +11,7 @@ export default function Home() {
 
       {/* Header */}
 
-      <div className="flex flex-row p-3 shadow-md">
+      <div className="flex flex-row p-3 shadow-md bg-purple-50">
         <div className="flex flex-1">
           <h1 className="font-bold uppercase text-xl text-purple-400">My Profile</h1>
         </div>
@@ -102,7 +102,7 @@ export default function Home() {
             
       <div className="flex flex-row m-3">
         <div className="flex flex-1 flex-col pr-64 pl-4 py-12 justify-center">
-\         <img
+        <img
             src="https://placehold.co/400"
             alt="hero"
             className="w-30 h-80 object-cover pr-8 pt-14 rounded-lg"
