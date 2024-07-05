@@ -5,12 +5,11 @@ export default function Footer() {
 
   return (
     <div
-      className="flex flex-row p-6 justify-between"
-      style={{backgroundColor:'#f5f5f5'}}>
+      className="flex flex-row p-6 justify-between bg-purple-100">
       <div className="space-y-3">
-        <h4 className="text-purple-400">My Website</h4>
+        <h4 className="">My Website</h4>
         <Nav />
-        <p className="text-purple-400">© 2024 My Website. All rights reserved.</p>
+        <p className="">© 2024 My Website. All rights reserved.</p>
       </div>
       <div className="flex flex-row space-x-3">
         <Instagram size={32} />
