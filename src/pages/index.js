@@ -8,7 +8,9 @@ import MySlider from '../components/MySlider';
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
+
       {/* Header */}
+
       <div className="flex flex-row p-3 shadow-md">
         <div className="flex flex-1">
           <h1 className="font-bold uppercase text-xl text-purple-400">My Profile</h1>
@@ -17,8 +19,11 @@ export default function Home() {
           <Nav />
         </div>
       </div>
+
       {/* Header */}
+
       {/* Hero Area */}
+
       <div className="flex flex-row mt-2">
         <div className="flex flex-1 flex-col pr-64 pl-4 py-12 justify-center">
           <h2 className="text-4xl font-bold text-purple-300">
@@ -34,7 +39,11 @@ export default function Home() {
           />
         </div>
       </div>
+
       {/* Hero Area */}
+
+      {/* Trusted By */}
+
       <div className="flex m-3 flex-col">
         <h2 className="text-xl font-bold m-2">
           Trusted by
@@ -59,9 +68,59 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Trusted By */}
+      
+      {/* Slider */}
+
       <MySlider />
 
-      <div className="flex flex-row justify-between m-6">
+      {/* Slider */}
+
+      {/* Easy To Use */}
+      
+      <div className="flex flex-row m-3">
+        <div className="flex flex-1 flex-col pr-64 pl-4 py-12 justify-center">
+          <h2 className="text-2xl font-bold">
+           Easy to Use
+          </h2>
+          <p className="text-gray-300 text-base">Our clean and intuitive design will help you operate the apps easily</p>
+        </div>
+        <div className="flex flex-1">
+          <img
+            src="https://placehold.co/400"
+            alt="hero"
+            className="w-30 h-80 object-cover pr-8 pt-14 rounded-lg"
+          />
+        </div>
+
+      </div>
+
+      {/* Easy To Use */}
+
+      {/* Upgrade */}
+       
+            
+      <div className="flex flex-row m-3">
+        <div className="flex flex-1 flex-col pr-64 pl-4 py-12 justify-center">
+\         <img
+            src="https://placehold.co/400"
+            alt="hero"
+            className="w-30 h-80 object-cover pr-8 pt-14 rounded-lg"
+          />
+       
+        </div>
+        <div className="flex flex-1">
+
+        </div>
+      </div>
+
+
+      {/* Upgrade */}
+
+      {/* Services */}
+      
+
+      <div className="flex flex-row justify justify-between m-4">
         <ServiceItem
           title="48 Hours Customer Service"
           description="We respect your passion to run your business by always accompany you"
@@ -78,7 +137,14 @@ export default function Home() {
           image={<MoveUpRight size={60} color="#066fe8" />}
           />
       </div>
+
+    {/* Services */}
+
+    {/* Footer */}
+
       <Footer />
+      
+      {/* Footer */}
     </div>
   );
 }
