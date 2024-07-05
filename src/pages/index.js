@@ -45,7 +45,7 @@ export default function Home() {
       {/* Trusted By */}
 
       <div className="flex m-3 flex-col">
-        <h2 className="text-xl font-bold m-2">
+        <h2 className="text-3xl font-bold m-2 text-purple-300">
           Trusted by
         </h2>
         <div className="flex m-3 flex-row space-x-2">
@@ -80,10 +80,10 @@ export default function Home() {
       
       <div className="flex flex-row m-3">
         <div className="flex flex-1 flex-col pr-64 pl-4 py-12 justify-center">
-          <h2 className="text-2xl font-bold">
+          <h2 className="text-3xl  text-purple-300 font-bold">
            Easy to Use
           </h2>
-          <p className="text-gray-300 text-base">Our clean and intuitive design will help you operate the apps easily</p>
+          <p className="text-purple-200 text-lg">Our clean and intuitive design will help you operate the apps easily</p>
         </div>
         <div className="flex flex-1">
           <img
@@ -120,7 +120,7 @@ export default function Home() {
       {/* Services */}
       
 
-      <div className="flex flex-row justify justify-between m-4">
+      <div className="flex flex-row justify justify-between m-4 ">
         <ServiceItem
           title="48 Hours Customer Service"
           description="We respect your passion to run your business by always accompany you"
