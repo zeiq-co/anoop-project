@@ -1,6 +1,6 @@
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Slider from 'react-slick';
 
 export default function MySlider() {
   var settings = {
@@ -14,15 +14,17 @@ export default function MySlider() {
 
   return (
     <Slider {...settings}>
-      <div className="w-full h-96 bg-purple-200 text-white text-2xl p-48">
-        <h3 className="text-center font-semibold">Real Time Results</h3>
+      <div className='h-96 w-full bg-purple-200 p-48 text-2xl text-white'>
+        <h3 className='text-center font-semibold'>Real Time Results</h3>
       </div>
-      <div className="w-full h-96 bg-purple-300 text-white text-2xl p-48">
-        <h3 className="text-center font-semibold">Call 200 7632 45 For Help Line</h3>
+      <div className='h-96 w-full bg-purple-300 p-48 text-2xl text-white'>
+        <h3 className='text-center font-semibold'>
+          Call 200 7632 45 For Help Line
+        </h3>
       </div>
-      <div className="w-full h-96 bg-purple-400 text-white text-2xl p-48">
-        <h3 className="text-center font-semibold">Free App!</h3>
+      <div className='h-96 w-full bg-purple-400 p-48 text-2xl text-white'>
+        <h3 className='text-center font-semibold'>Free App!</h3>
       </div>
     </Slider>
-  )
+  );
 }

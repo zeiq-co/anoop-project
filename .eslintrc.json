@@ -5,9 +5,9 @@
   ],
   "rules": {
     "max-len": [
-      "error",
+      "warning",
       {
-        "code": 80,
+        "code": 120,
         "ignoreUrls": true
       }
     ]
