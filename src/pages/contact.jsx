@@ -20,7 +20,13 @@ export default function Home() {
       {/* Title */}
 
       {/* Info */}
-        <div className="bg-black rounded-lg "></div>
+        <div className="bg-black rounded-lg flex flex-col">
+          <h1>Contact Information</h1>
+          <p className="text-gray-400 text-lg">Say something to start a live chat!</p>
+          <p>+1012 3456 789</p>
+          <p>demo@gmail.com</p>
+          <p>132 Dartmouth Street Boston, Massachusetts 02156 United States</p>
+        </div>
       {/* Info */}
   </div>
  );
