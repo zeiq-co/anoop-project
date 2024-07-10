@@ -1,8 +1,10 @@
+import Nav from '../components/Nav';
+
 export default function Home() {
  return(
   <div className='min-h-screen bg-white'>
          {/* Header */}
-         <div className='flex flex-row bg-black p-3 shadow-md'>
+         <div className='flex flex-row bg-black p-3 shadow-md text-white'>
         <div className='flex flex-1'>
           <h1 className='text-xl font-bold uppercase text-white'>
             My Profile
@@ -15,17 +17,17 @@ export default function Home() {
       {/* Header */} 
 
       {/* Title */} 
-      <h1 className="font-bold">Contact Us</h1>
-      <p>Any questions or remarks? Just write us a message!</p>
+      <h1 className="font-bold text-center p-8 text-2xl">Contact Us</h1>
+      <p className='font-extrabold text-center'>Any questions or remarks? Just write us a message!</p>
       {/* Title */}
 
       {/* Info */}
-        <div className="bg-black rounded-lg flex flex-col">
-          <h1>Contact Information</h1>
-          <p className="text-gray-400 text-lg">Say something to start a live chat!</p>
-          <p>+1012 3456 789</p>
-          <p>demo@gmail.com</p>
-          <p>132 Dartmouth Street Boston, Massachusetts 02156 United States</p>
+        <div className= "bg-black m-3 rounded-lg text-white p-4 h-86 w-1/2">
+          <h1 className='font-bold text-2xl p-4'>Contact Information</h1>
+          <p className="text-gray-400 text-lg p-4">Say something to start a live chat!</p>
+          <p className='p-4'>+1012 3456 789</p>
+          <p className='p-4'>demo@gmail.com</p>
+          <p className='p-4'>132 Dartmouth Street Boston, Massachusetts 02156 United States</p>
         </div>
       {/* Info */}
   </div>
