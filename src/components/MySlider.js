@@ -14,15 +14,15 @@ export default function MySlider() {
 
   return (
     <Slider {...settings}>
-      <div className='h-96 w-full rounded-3xl  bg-purple-200 p-48 text-4xl text-white'>
+      <div className='h-96 w-full rounded-3xl bg-purple-200 p-48 text-4xl text-white'>
         <h3 className='text-center font-semibold'>Real Time Results</h3>
       </div>
-      <div className='h-96 w-full rounded-3xl  bg-purple-300 p-48 text-4xl text-white'>
+      <div className='h-96 w-full rounded-3xl bg-purple-300 p-48 text-4xl text-white'>
         <h3 className='text-center font-semibold'>
           Call 200 7632 45 For Help Line
         </h3>
       </div>
-      <div className='h-96 w-full rounded-3xl  bg-purple-400 p-48 text-4xl text-white'>
+      <div className='h-96 w-full rounded-3xl bg-purple-400 p-48 text-4xl text-white'>
         <h3 className='text-center font-semibold'>Free App!</h3>
       </div>
     </Slider>
