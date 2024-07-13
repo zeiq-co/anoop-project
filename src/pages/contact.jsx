@@ -1,5 +1,6 @@
+import { PhoneCall, Mail, MapPin } from 'lucide-react';
 import Nav from '../components/Nav';
-import { Instagram, Twitter, Facebook, Youtube } from 'lucide-react';
+import { Instagram, Twitter, Facebook, Youtube} from 'lucide-react';
 
 export default function Home() {
   return (
@@ -23,16 +24,23 @@ export default function Home() {
       {/* Title */}
 
       {/* Info */}
-      <div className='h-86 m-3 w-1/3 rounded-lg bg-black p-4 text-white'>
-        <h1 className='p-4 text-2xl font-bold'>Contact Information</h1>
-        <p className='p-4 text-lg text-gray-400'>
-          Say something to start a live chat!
-        </p>
-        <p className='p-4'>+1012 3456 789</p>
-        <p className='p-4'>demo@gmail.com</p>
-        <p className='p-4'>
-          132 Dartmouth Street Boston, Massachusetts 02156 United States
-        </p>
+      <div>
+        <div className='h-86 m-3 w-1/3 rounded-lg bg-black p-4 text-white'>
+          <h1 className='p-4 text-2xl font-bold'>Contact Information</h1>
+          <p className='p-4 text-lg text-gray-400'>Say something to start a live chat!</p>
+          <div className='flex flex-row space-x-3 p-4'>
+            <PhoneCall size={28}/>
+            <p> +1012 3456 789 </p>
+          </div>
+          <div className='flex flex-row space-x-3 p-4'>
+            <Mail size={28}/>
+            <p> demo@gmail.com </p>
+          </div>
+          <div className='flex flex-row space-x-3 p-4'>
+            <MapPin size={48}/>
+            <p> 132 Dartmouth Street Boston, Massachusetts 02156 United States </p>
+          </div>
+        </div>
       </div>
       {/* Info */}
 
