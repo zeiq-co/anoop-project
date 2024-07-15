@@ -24,9 +24,9 @@ export default function Home() {
       {/* Title */}
 
       {/* Info */}
-      <div>
+      <div className='flex flex-row'>
         {/* Black Box */}
-        <div className='min-h-96 m-4 w-1/4 rounded-lg bg-black p-4 text-white'>
+        <div className='flex flex-1 flex-col min-h-96 m-4 w-1/4 rounded-lg bg-black p-4 text-white'>
           <h1 className='p-4 text-2xl font-bold'>Contact Information</h1>
           <p className='p-4 text-lg text-gray-400'>Say something to start a live chat!</p>
           <div className='flex flex-row space-x-3 p-4'>
@@ -44,9 +44,17 @@ export default function Home() {
         </div>
         {/* Black Box */}
         {/* White Box */}
-        <div className='bg-white justify-self-end min-h-96 w-3/4'>
-
-
+        <div className='flex flex-col flex-1 bg-white min-h-96 w-3/4 m-3 p-4 rounded-lg'>
+         <p className='p-3 text-gray-300'>First Name</p>
+         <input type="text" className=' m-3 bg-white border-gray-300 border-spacing-3 border-b-2' ></input>
+         <p className='p-3  text-gray-300'>Last Name</p>
+         <input type="text" className=' m-3 bg-white border-gray-300 border-spacing-3 border-b-2' ></input>
+         <button 
+          onClick={() => alert('Your form is submitted!')}
+          type="submit" 
+          className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+          Submit
+        </button>
         </div>
         {/* White Box */}
       </div>
