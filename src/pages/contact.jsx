@@ -1,6 +1,7 @@
 import { PhoneCall, Mail, MapPin } from 'lucide-react';
 import Nav from '../components/Nav';
 import { Instagram, Twitter, Facebook, Youtube} from 'lucide-react';
+import Checkbox from '@/components/Checkbox';
 
 export default function Home() {
   return (
@@ -51,6 +52,13 @@ export default function Home() {
          <p className='p-3  text-gray-300'>Last Name</p>
          <input type="text" className=' m-3 bg-white border-gray-300 border-spacing-3 border-b-2' ></input>
           {/* Questions */}
+          {/* Check Boxes */}
+          <h1 className='text-center text-3xl font-semibold '>Select Subject ?</h1>
+          <Checkbox/>
+          <Checkbox/>
+          <Checkbox/>
+          <Checkbox/>
+          {/* Check Boxes */}
          {/* Submit */}
          <button 
           onClick={() => alert('Your form is submitted!')}
