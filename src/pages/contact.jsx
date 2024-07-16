@@ -25,7 +25,7 @@ export default function Home() {
       {/* Title */}
 
       {/* Info */}
-      <div className='flex flex-row'>
+      <div className='flex flex-row p-16'>
         {/* Black Box */}
         <div className='flex flex-col min-h-96 m-4 rounded-lg bg-black p-4 text-white'>
           <h1 className='p-4 text-2xl font-bold'>Contact Information</h1>
@@ -42,15 +42,26 @@ export default function Home() {
             <MapPin size={48} />
             <p className='text-lg'> 132 Dartmouth Street Boston, Massachusetts 02156, United States </p>
           </div>
+          <div className='flex flex-row space-x-3 justify-evenly'>
+          <Instagram size={32} color='white' />
+          <Twitter size={32} color='white' />
+          <Youtube size={32} color='white' />
+          </div>
         </div>
         {/* Black Box */}
         {/* White Box */}
-        {/* Questions */}
         <div className='flex flex-col bg-white min-h-96 w-11/12 m-3 p-4 rounded-lg'>
+        {/* Questions */}
          <p className='p-3 text-gray-300'>First Name</p>
          <input type="text" className=' m-3 bg-white border-gray-300 border-spacing-3 border-b-2' ></input>
          <p className='p-3  text-gray-300'>Last Name</p>
          <input type="text" className=' m-3 bg-white border-gray-300 border-spacing-3 border-b-2' ></input>
+         <div className=''>
+         <p className='p-3  text-gray-300'>Email</p>
+         <input type="email" className=' m-3 bg-white border-gray-300 border-spacing-3 border-b-2' ></input>
+         <p className='p-3  text-gray-300'>Phone Number</p>
+         <input type="number" className=' m-3 bg-white border-gray-300 border-spacing-3 border-b-2' ></input>
+         </div>
           {/* Questions */}
           {/* Check Boxes */}
           <h1 className='text-center text-3xl font-semibold '>Select Subject ?</h1>
@@ -67,8 +78,8 @@ export default function Home() {
           type="submit" 
           className="text-white h-18 bg-purple-300 hover:bg-purple-400 focus:ring-4 focus:ring-purple-500 font-semibold rounded-lg text-lg px-5 py-2.5 me-2 mb-2 dark:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 blue-600 dark:hover:bg-blue">
           Submit
-        </button>
-        {/* Submit */}
+         </button>
+         {/* Submit */}
         </div>
         {/* White Box */}
       </div>
@@ -77,11 +88,11 @@ export default function Home() {
       {/* Footer */}
       <div className='flex flex-row justify-between bg-black p-8'>
         <div className='space-y-3 text-white'>
-          <h4 className='text-white'>My Website</h4>
+          <h4 className='text-white pt-4 pb-4'>My Website</h4>
           <Nav />
-          <p className='text-white'>© 2024 My Website. All rights reserved.</p>
+          <p className='text-white pt-4 pb-4'>© 2024 My Website. All rights reserved.</p>
         </div>
-        <div className='flex flex-row space-x-3'>
+        <div className='flex flex-row space-x-3 pt-4 pb-4'>
           <Instagram size={32} color='white' />
           <Twitter size={32} color='white' />
           <Facebook size={32} color='white' />
