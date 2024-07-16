@@ -54,11 +54,13 @@ export default function Home() {
           {/* Questions */}
           {/* Check Boxes */}
           <h1 className='text-center text-3xl font-semibold '>Select Subject ?</h1>
+          <div className='flex flex-row'>
           <Checkbox/>
           <Checkbox/>
           <Checkbox/>
           <Checkbox/>
-          {/* Check Boxes */}
+          </div>
+         {/* Check Boxes */}
          {/* Submit */}
          <button 
           onClick={() => alert('Your form is submitted!')}
