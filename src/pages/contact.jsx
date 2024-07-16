@@ -42,7 +42,7 @@ export default function Home() {
             <MapPin size={48} />
             <p className='text-lg'> 132 Dartmouth Street Boston, Massachusetts 02156, United States </p>
           </div>
-          <div className='flex flex-row space-x-3 justify-evenly'>
+          <div className='flex flex-row space-x-3 justify-evenly pt-32'>
           <Instagram size={32} color='white' />
           <Twitter size={32} color='white' />
           <Youtube size={32} color='white' />
@@ -88,11 +88,11 @@ export default function Home() {
       {/* Footer */}
       <div className='flex flex-row justify-between bg-black p-8'>
         <div className='space-y-3 text-white'>
-          <h4 className='text-white pt-4 pb-4'>My Website</h4>
+          <h3 className='text-white pt-6 pb-4 text-lg'>My Website</h3>
           <Nav />
-          <p className='text-white pt-4 pb-4'>© 2024 My Website. All rights reserved.</p>
+          <p className='text-white pt-6 pb-4 text-lg'>© 2024 My Website. All rights reserved.</p>
         </div>
-        <div className='flex flex-row space-x-3 pt-4 pb-4'>
+        <div className='flex flex-row space-x-3 pt-6 pb-4'>
           <Instagram size={32} color='white' />
           <Twitter size={32} color='white' />
           <Facebook size={32} color='white' />
