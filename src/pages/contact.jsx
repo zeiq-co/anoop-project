@@ -1,7 +1,7 @@
 import { PhoneCall, Mail, MapPin } from 'lucide-react';
 import Nav from '../components/Nav';
 import { Instagram, Twitter, Facebook, Youtube} from 'lucide-react';
-import Checkbox from '@/components/Checkbox';
+import Checkbox from '../components/Checkbox';
 
 export default function Home() {
   return (
@@ -72,6 +72,12 @@ export default function Home() {
           <Checkbox/>
           </div>
          {/* Check Boxes */}
+         {/* Message */}
+         <div>
+          <p className='p-3 text-gray-300'>Message</p>
+          <input type='text' className=' m-3 bg-white border-gray-300 border-spacing-3 border-b-2'></input>
+         </div>
+         {/* Message */}
          {/* Submit */}
          <button 
           onClick={() => alert('Your form is submitted!')}
