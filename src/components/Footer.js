@@ -6,9 +6,9 @@ export default function Footer() {
   return (
     <div className='flex flex-row justify-between bg-purple-50 p-6'>
       <div className='space-y-3 p-7'>
-        <h4 className=''>My Website</h4>
+        <h4 className='font-bold text-purple-300'>My Website</h4>
         <Nav />
-        <p className=''>© 2024 My Website. All rights reserved.</p>
+        <p className='font-bold text-purple-300'>© 2024 My Website, All rights reserved.</p>
       </div>
       <div className='flex flex-row space-x-3'>
         <Instagram size={32} />
