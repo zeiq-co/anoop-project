@@ -4,8 +4,8 @@ import Nav from '../components/Nav';
 
 export default function Footer() {
   return (
-    <div className='flex flex-row justify-between bg-purple-50 p-6'>
-      <div className='space-y-3 p-7'>
+    <div className='flex flex-row justify-between bg-purple-50 p-2'>
+      <div className=' p-2'>
         <h4 className='font-bold text-purple-300'>My Website</h4>
         <Nav />
         <p className='font-bold text-purple-300'>© 2024 My Website, All rights reserved.</p>
