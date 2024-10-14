@@ -15,7 +15,7 @@ export default function Stats() {
             { title: 'One', value: 20, color: '#E38627' },
             { title: 'Two', value: 35, color: '#C13C37' },
             { title: 'Three', value: 50, color: '#6A2135' },
-            { title: 'Four', value: 50, color: '#E0e' },
+            { title: 'Four', value: 50, color: '#FFFFFF' },
           ]}
         />
       </div>

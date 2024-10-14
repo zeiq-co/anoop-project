@@ -5,7 +5,7 @@ import Checkbox from '../components/Checkbox';
 
 export default function Home() {
   return (
-    <div className='min-h-screen bg-gray-50'>
+    <div className='min-h-screen bg-gray-50 font-medium'>
       {/* Header */}
       <div className='flex flex-row bg-black p-3 text-white shadow-md'>
         <div className='flex flex-1'>
@@ -93,9 +93,9 @@ export default function Home() {
       {/* Footer */}
       <div className='flex flex-row justify-between bg-black p-8'>
         <div className='space-y-3 text-white'>
-          <h3 className='text-white pt-6 pb-4 text-lg'>My Website</h3>
+          <h3 className='text-white p-2 text-lg'>My Website</h3>
           <Nav />
-          <p className='text-white pt-6 pb-4 text-lg'>© 2024 My Website. All rights reserved.</p>
+          <p className='text-white p-2  text-lg'>© 2024 My Website. All rights reserved.</p>
         </div>
         <div className='flex flex-row space-x-3 pt-6 pb-4'>
           <Instagram size={32} color='white' />
